@@ -18,6 +18,8 @@ describe('typeof-article', function() {
     assert.equal(type({}), 'an object');
     assert.equal(type([]), 'an array');
     assert.equal(type(9), 'a number');
+    assert.equal(type(null), 'null');
+    assert.equal(type(undefined), 'undefined');
     assert.equal(type(/abc/), 'a regular expression');
     assert.equal(type(new WeakMap()), 'a WeakMap');
   });
