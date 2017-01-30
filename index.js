@@ -15,7 +15,7 @@ var types = {
   'int32array': 'an int32array',
   'int8array': 'an int8array',
   'map': 'a Map',
-  'null': ' null',
+  'null': 'null',
   'number': 'a number',
   'object': 'an object',
   'regexp': 'a regular expression',
@@ -26,7 +26,7 @@ var types = {
   'uint32array': 'an uint32array',
   'uint8array': 'an uint8array',
   'uint8clampedarray': 'an uint8clampedarray',
-  'undefined': ' undefined',
+  'undefined': 'undefined',
   'weakmap': 'a WeakMap',
   'weakset': 'a WeakSet'
 };
